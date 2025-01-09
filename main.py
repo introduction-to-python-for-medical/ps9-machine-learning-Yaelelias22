@@ -1,7 +1,5 @@
 import pandas as pd
 df = pd.read_csv('parkinsons.csv')
-df.head()
-df = df.dropna()
 
 import seaborn as sns
 
